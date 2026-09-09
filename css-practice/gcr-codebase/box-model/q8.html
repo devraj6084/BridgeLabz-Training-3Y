@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Model</title>
+    <link rel="stylesheet" href="q8.css">
+</head>
+<body>
+    <header>
+        <h1>Box Model Exploration</h1>
+    </header>
+
+    <main class="stage">
+        <div class="margin-box">
+            <p class="label">margin</p>
+            <div class="border-box">
+                <p class="label">border</p>
+                <div class="padding-box">
+                    <p class="label">padding</p>
+                    <div class="content-box">content</div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <section class="compare-row">
+        <div>
+            <p class="label">content-box</p>
+            <div class="box default-box">width: 200px</div>
+        </div>
+
+        <div>
+            <p class="label">border-box</p>
+            <div class="box border-sizing-box">width: 200px</div>
+        </div>
+    </section>
+</body>
+</html>
