@@ -1,0 +1,82 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    color: #222222;
+}
+
+header {
+    text-align: center;
+    padding: 30px;
+}
+
+/* flexbox row to align all examples */
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    padding: 20px 30px 50px;
+}
+
+.item {
+    background-color: #ffffff;
+    padding: 15px;
+    text-align: center;
+    border-radius: 6px;
+}
+
+.item p {
+    margin: 8px 0 0 0;
+    font-size: 13px;
+    color: #555555;
+}
+
+/* hover pseudo-class */
+.link-demo {
+    color: #4a90e2;
+    text-decoration: none;
+}
+
+.link-demo:hover {
+    color: #d35400;
+}
+
+.btn-demo {
+    padding: 8px 16px;
+    border: 1px solid #4a90e2;
+    background-color: #ffffff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* focus pseudo-class */
+.btn-demo:focus {
+    outline: 2px solid #d35400;
+}
+
+/* active pseudo-class */
+.btn-demo:active {
+    background-color: #4a90e2;
+    color: #ffffff;
+}
+
+.list-demo {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 140px;
+}
+
+.list-demo li {
+    padding: 6px;
+}
+
+/* nth-child pseudo-class */
+.list-demo li:nth-child(odd) {
+    background-color: #eeeeee;
+}
+
+.list-demo li:nth-child(even) {
+    background-color: #dddddd;
+}

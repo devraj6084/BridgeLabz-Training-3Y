@@ -1,0 +1,67 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    color: #222222;
+}
+
+header {
+    text-align: center;
+    padding: 30px;
+}
+
+main {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px 30px 50px;
+}
+
+/* element selector, targets every p tag */
+p {
+    margin: 0 0 15px 0;
+    line-height: 1.6;
+}
+
+/* class selector, targets elements with class="highlight" */
+.highlight {
+    background-color: #ffe08a;
+    padding: 8px;
+}
+
+/* id selector, targets the single element with id="unique" */
+#unique {
+    color: #4a90e2;
+    font-weight: bold;
+}
+
+/* attribute selector, targets links starting with https */
+a[href^="https"] {
+    color: #27ae60;
+}
+
+.list-section {
+    margin-top: 20px;
+}
+
+/* descendant combinator, targets any span inside ul */
+ul span {
+    color: #d35400;
+}
+
+/* child combinator, targets only direct li children of ul */
+ul > li {
+    padding: 4px 0;
+}
+
+/* adjacent sibling combinator, targets p right after ul */
+ul + p {
+    font-style: italic;
+    color: #555555;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #222222;
+    color: #ffffff;
+}

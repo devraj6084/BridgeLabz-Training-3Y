@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    color: #222222;
+}
+
+header {
+    text-align: center;
+    padding: 30px;
+}
+
+/* center both boxes on the page */
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    padding: 20px 30px 50px;
+}
+
+.box {
+    width: 200px;
+    padding: 20px;
+    border: 4px solid #444444;
+    text-align: center;
+    font-size: 13px;
+}
+
+/* default box-sizing, padding adds to the total width */
+.default-box {
+    box-sizing: content-box;
+    background-color: #f6d9c2;
+}
+
+/* border-box, padding is included inside the given width */
+.border-box {
+    box-sizing: border-box;
+    background-color: #c2d7ec;
+}
+
+/* keep the layout usable on small screens */
+@media (max-width: 500px) {
+    .row {
+        flex-direction: column;
+        align-items: center;
+    }
+}
