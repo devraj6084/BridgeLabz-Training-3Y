@@ -1,0 +1,70 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: 'Consolas', monospace;
+	background-color: #0d1117;
+	color: #e6edf3;
+}
+
+header {
+	text-align: center;
+	padding: 30px;
+}
+
+.cheat-grid {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	gap: 20px;
+	padding: 20px 50px 60px;
+}
+
+.cheat-box {
+	background-color: #161b22;
+	border: 1px solid #30363d;
+	border-radius: 8px;
+	padding: 20px;
+	transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.cheat-box:hover {
+	background-color: #21262d;
+	transform: translateY(-4px);
+}
+
+.cheat-box h2 {
+	color: #58a6ff;
+	margin-bottom: 10px;
+	font-size: 1.1rem;
+}
+
+.cheat-box p {
+	color: #c9d1d9;
+	font-size: 0.95rem;
+}
+
+@media (min-width: 1000px) {
+	.cheat-grid {
+		grid-template-columns: repeat(3, 1fr);
+	}
+}
+
+@media (max-width: 700px) {
+	.cheat-grid {
+		grid-template-columns: 1fr;
+		padding: 20px;
+	}
+
+	.cheat-box {
+		display: grid;
+		grid-template-columns: 130px 1fr;
+		align-items: center;
+	}
+
+	.cheat-box h2 {
+		margin-bottom: 0;
+	}
+}
