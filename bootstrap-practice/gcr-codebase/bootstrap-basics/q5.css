@@ -1,0 +1,18 @@
+:root {
+    --bs-primary: #b45309;
+    --bs-primary-rgb: 180, 83, 9;
+    --bs-font-sans-serif: 'Merriweather', serif;
+}
+
+body {
+    font-family: var(--bs-font-sans-serif);
+}
+
+.card-img-top {
+    height: 220px;
+    object-fit: cover;
+}
+
+h1, h5.card-title {
+    color: var(--bs-primary);
+}

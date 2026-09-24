@@ -1,0 +1,13 @@
+.card-img-top {
+    height: 180px;
+    object-fit: cover;
+}
+
+.page-link {
+    color: #212529;
+}
+
+.page-item.active .page-link {
+    background-color: #212529;
+    border-color: #212529;
+}

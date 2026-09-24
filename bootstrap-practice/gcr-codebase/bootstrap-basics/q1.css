@@ -1,0 +1,16 @@
+.hero-section {
+    min-height: 70vh;
+    background: linear-gradient(135deg, #0d1b2a, #1b263b);
+}
+
+.navbar-brand {
+    letter-spacing: 1px;
+}
+
+.rounded-3 {
+    transition: transform 0.2s ease-in-out;
+}
+
+.rounded-3:hover {
+    transform: translateY(-5px);
+}

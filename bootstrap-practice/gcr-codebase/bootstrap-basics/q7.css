@@ -1,0 +1,9 @@
+.card {
+    border: none;
+    border-radius: 1rem;
+    overflow: hidden;
+}
+
+.list-group-item {
+    padding: 1rem 1.25rem;
+}

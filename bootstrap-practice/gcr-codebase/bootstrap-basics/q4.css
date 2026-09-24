@@ -1,0 +1,8 @@
+.menu-header {
+    background: linear-gradient(135deg, #7f1d1d, #b91c1c);
+}
+
+figcaption {
+    font-style: italic;
+    font-size: 0.9rem;
+}

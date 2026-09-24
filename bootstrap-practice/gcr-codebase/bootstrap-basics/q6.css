@@ -1,0 +1,8 @@
+.card {
+    border: none;
+    border-radius: 1rem;
+}
+
+.alert {
+    border-radius: 0.75rem;
+}
